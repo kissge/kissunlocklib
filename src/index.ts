@@ -32,3 +32,8 @@ async function hash(value: string) {
 
   return (new Uint8Array(buffer) as any).toHex();
 }
+
+/** AmazonのほしいものリストURL */
+export const wishlistURL = "https://www.amazon.co.jp/hz/wishlist/ls/1E7FJD98L3TW6?sort=custom";
+/** 作者のXアカウントURL */
+export const authorURL = "https://x.com/_kidochan";
